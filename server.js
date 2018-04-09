@@ -24,8 +24,7 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-// Override with POST having ?_method=DELETE
+// Method Override
 app.use(methodOverride('_method'));
 
-// get them routes
 require('./controllers/burger_controller.js')(app);
