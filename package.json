@@ -4,11 +4,11 @@
   "description": "Burger logger made with MySQL, Node, Express, Handlebars and ORM",
   "main": "server.js",
   "dependencies": {
-    "body": "^5.1.0",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.10",
-    "parser": "^0.1.4"
+    "mysql": "^2.15.0"
   },
   "devDependencies": {},
   "scripts": {
